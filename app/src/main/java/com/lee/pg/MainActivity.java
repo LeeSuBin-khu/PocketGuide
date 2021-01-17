@@ -33,13 +33,6 @@ public class MainActivity extends AppCompatActivity implements  NavigationHost {
                     .add(R.id.container, new TestMainFragment())
                     .commit();
         }
-
-
-        //MapView mapView = new MapView(this);
-
-        //ViewGroup mapViewContainer = (ViewGroup) findViewById(R.id.map_view);
-        //mapViewContainer.addView(mapView);
-
     }
     private void getAppKeyHash() {
         try {

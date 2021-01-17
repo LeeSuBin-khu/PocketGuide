@@ -7,6 +7,11 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+
+import com.google.android.material.button.MaterialButton;
+
+import net.daum.mf.map.api.MapView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -19,6 +24,28 @@ public class TestMainFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_test_main, container, false);
+        View view = inflater.inflate(R.layout.fragment_test_main, container, false);
+
+        MaterialButton btn1 = view.findViewById(R.id.select);
+        MaterialButton btn2 = view.findViewById(R.id.map);
+        MaterialButton btn3 = view.findViewById(R.id.routs);
+
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((NavigationHost)getActivity()).navigateTo(new SelectFragment(), false);
+
+            }
+        });
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((NavigationHost)getActivity()).navigateTo(new MapFragment(), false);
+
+            }
+        });
+
+        return view;
     }
 }

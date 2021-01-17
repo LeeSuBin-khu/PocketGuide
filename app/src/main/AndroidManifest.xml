@@ -13,16 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity
-            android:name=".SelectActivity"
-            android:label="@string/title_activity_select"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
 
         <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="e0b84a6e002f951c2b181bbf40a7d440" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
