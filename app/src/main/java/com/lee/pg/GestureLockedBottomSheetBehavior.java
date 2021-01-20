@@ -1,4 +1,8 @@
 package com.lee.pg;
+/*본 파일은 백드롭 창의 스크롤 오류를 제어하기 위해 스크롤 관련 부분들을 잠금한 BottomSheetBehavior입니다.
+ *
+ */
+
 
 import android.content.Context;
 import android.view.MotionEvent;
