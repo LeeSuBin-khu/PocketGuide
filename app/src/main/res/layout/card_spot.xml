@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/card_spot"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="16dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/image_spot"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_spot_name"
+            android:text="Spot_Name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/image_spot"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_spot_location"
+            android:text="Spot_location"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/image_spot"
+            android:layout_below="@+id/text_spot_name"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>
