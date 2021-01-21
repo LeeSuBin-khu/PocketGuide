@@ -4,23 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.os.Bundle;
 import android.util.Base64;
 import android.util.Log;
-import android.view.View;
-import android.view.ViewGroup;
 
-import com.google.android.material.button.MaterialButton;
-
-import net.daum.mf.map.api.MapView;
+import com.lee.pg.fragment.TestMainFragment;
+import com.lee.pg.view.NavigationHost;
 
 import java.security.MessageDigest;
 
-public class MainActivity extends AppCompatActivity implements  NavigationHost {
+public class MainActivity extends AppCompatActivity implements NavigationHost {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

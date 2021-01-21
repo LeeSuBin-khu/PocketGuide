@@ -1,4 +1,4 @@
-package com.lee.pg;
+package com.lee.pg.view;
 
 import androidx.fragment.app.Fragment;
 

@@ -1,4 +1,4 @@
-package com.lee.pg;
+package com.lee.pg.fragment;
 
 import android.annotation.SuppressLint;
 import android.database.DataSetObserver;
@@ -14,6 +14,7 @@ import android.widget.ArrayAdapter;
 import com.google.android.material.datepicker.MaterialDatePicker;
 import com.google.android.material.textfield.MaterialAutoCompleteTextView;
 import com.google.android.material.textfield.TextInputEditText;
+import com.lee.pg.R;
 
 
 public class SelectFragment extends Fragment {

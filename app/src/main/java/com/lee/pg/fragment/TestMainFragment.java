@@ -1,4 +1,4 @@
-package com.lee.pg;
+package com.lee.pg.fragment;
 
 import android.os.Bundle;
 
@@ -7,11 +7,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 import com.google.android.material.button.MaterialButton;
-
-import net.daum.mf.map.api.MapView;
+import com.lee.pg.view.NavigationHost;
+import com.lee.pg.R;
 
 /**
  * A simple {@link Fragment} subclass.

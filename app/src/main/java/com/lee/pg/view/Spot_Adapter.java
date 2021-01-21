@@ -1,4 +1,4 @@
-package com.lee.pg;
+package com.lee.pg.view;
 
 import android.annotation.TargetApi;
 import android.os.Build;
@@ -10,6 +10,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.textview.MaterialTextView;
+import com.lee.pg.R;
+import com.lee.pg.javaClass.Spot;
 
 import java.util.List;
 
