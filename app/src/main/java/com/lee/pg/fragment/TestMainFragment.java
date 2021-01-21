@@ -28,6 +28,7 @@ public class TestMainFragment extends Fragment {
         MaterialButton btn1 = view.findViewById(R.id.select);
         MaterialButton btn2 = view.findViewById(R.id.map);
         MaterialButton btn3 = view.findViewById(R.id.routs);
+        MaterialButton btn4 = view.findViewById(R.id.manbogi);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +42,14 @@ public class TestMainFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 ((NavigationHost)getActivity()).navigateTo(new MapFragment(), false);
+
+            }
+        });
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ((NavigationHost)getActivity()).navigateTo(new ManbogiFragment(), false);
 
             }
         });
