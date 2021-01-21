@@ -34,7 +34,13 @@
             android:text="경로추천"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            />
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/manbogi"
+            android:text="만보기"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             />
 
     </LinearLayout>
